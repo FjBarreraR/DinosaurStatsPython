@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Dinosaurios</title>
+    <style>
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+
+    <h1>Dinosaurios desde la API</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Periodo</th>
+                <th>Descripción</th>
+                <th>Imagen</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for dino in datos_api %}
+                <tr>
+                    <td>{{ dino.name }}</td>
+                    <td>{{ dino.period }}</td>
+                    <td>{{ dino.description }}</td> <td>
+                        {% if dino.image %}
+                            <img src="{{ dino.image }}" alt="{{ dino.name }}" width="100">
+                        {% else %}
+                            Sin imagen
+                        {% endif %}
+                    </td>
+                </tr>
+            {% empty %}
+                <tr>
+                    <td colspan="4">No se encontraron dinosaurios o la API falló.</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+</body>
+</html>

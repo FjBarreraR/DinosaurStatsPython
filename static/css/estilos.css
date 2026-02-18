@@ -1,0 +1,45 @@
+/* Colores personalizados */
+.bg-dark-blue {
+    background-color: #0d1b2a;
+    color: white;
+}
+
+.bg-yellow {
+    background-color: #8B5CF6; /* Púrpura de tu diseño */
+    color: #333;
+}
+
+.bg-blue {
+    background-color: #1976d2;
+    color: white;
+}
+
+.bg-danger {
+    background-color: #10B981; /* Verde esmeralda de tu diseño */
+    color: white;
+}
+
+.bg-green {
+    background-color: #10B981;
+    color: white;
+}
+
+/* Configuración general */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Efecto Hover para las cards */
+.card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.icon-white {
+    filter: brightness(0) invert(1);
+}
