@@ -5,19 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4a5af4e-6e54-42b8-afbc-96fac77a0d08" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/DinosaurStats.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dinosaur_stats/services.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dinosaur_stats/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/estilos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/dinosaurios/mostrar_dinos.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/home/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/admin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/categories.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/dataLoad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/dinos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/rankings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/reviews.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/stats.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/t-rex.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/load_data/cargar_datos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/user/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/user/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dinosaur_stats/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dinosaur_stats/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dinosaur_stats/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/dinosaur_stats/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +36,7 @@
         <option value="Python Script" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -40,9 +47,9 @@
     <commands />
     <urls />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="39rJDYtFnHbBuyKIDGjXYg06szt" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -65,9 +72,10 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ai.playground.ignore.import.keys.banner.in.settings": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
+    "django.template.preview.state": "SHOW_EDITOR",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/franciscojosebarreraroman/PycharmProjects/DinosaurStats/static/images",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -79,7 +87,11 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/load_data" />
       <recent name="$PROJECT_DIR$/templates/dinosaurios" />
     </key>
   </component>
@@ -126,7 +138,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1771448136664</updated>
-      <workItem from="1771448137683" duration="6562000" />
+      <workItem from="1771448137683" duration="6944000" />
+      <workItem from="1771509994233" duration="12239000" />
     </task>
     <servers />
   </component>

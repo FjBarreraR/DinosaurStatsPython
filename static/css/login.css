@@ -1,0 +1,23 @@
+/* Estilos específicos para la página de login */
+
+.login-card {
+    width: 100%;
+    max-width: 450px;
+    border: none;
+    border-radius: 15px;
+}
+
+/* El color "dark-blue" que tenías en Symfony */
+.btn-custom-blue {
+    background-color: #1a2a6c; /* Ajusta este tono al azul de tu marca */
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom-blue:hover {
+    background-color: #0d1a44;
+    color: white;
+}
+
+.form-control-lg {
+    font-size: 1rem;
+}
